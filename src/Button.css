@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+}
+
+.number {
+  background: blue;
+}
+
+.clear {
+  background: orange;
+}
+
+.operation {
+  background: grey;
+}
