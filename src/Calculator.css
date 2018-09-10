@@ -1,7 +1,7 @@
 .calculator {
-  box-shadow: 10px 10px 10px;
   width: 400px;
-  height: fit-content;
+  background: #111111;
+  border-radius: 30px;
 }
 
 .keypad {
