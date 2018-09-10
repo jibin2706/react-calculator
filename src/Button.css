@@ -20,3 +20,7 @@
   background: #e65100;
   color: white;
 }
+
+.expand {
+  grid-column: 1/3;
+}

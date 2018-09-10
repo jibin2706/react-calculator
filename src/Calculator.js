@@ -39,23 +39,18 @@ export default class Calculator extends Component {
       <div className="calculator">
         <Display display={this.state.display} />
         <div className="keypad">
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            1
+          <Button
+            onButtonClick={e => this.onButtonClick(e)}
+            type="clear"
+            size="expand"
+          >
+            C
           </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            2
+          <Button onButtonClick={e => this.onButtonClick(e)} type="clear">
+            %
           </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            3
-          </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            4
-          </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            5
-          </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            6
+          <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
+            /
           </Button>
           <Button onButtonClick={e => this.onButtonClick(e)} type="number">
             7
@@ -66,26 +61,45 @@ export default class Calculator extends Component {
           <Button onButtonClick={e => this.onButtonClick(e)} type="number">
             9
           </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
-            0
-          </Button>
           <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
-            +
+            *
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            4
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            5
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            6
           </Button>
           <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
             -
           </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
-            *
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            1
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            2
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            3
           </Button>
           <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
-            /
+            +
+          </Button>
+          <Button
+            onButtonClick={e => this.onButtonClick(e)}
+            type="number"
+            size="expand"
+          >
+            0
+          </Button>
+          <Button onButtonClick={e => this.onButtonClick(e)} type="number">
+            .
           </Button>
           <Button onButtonClick={e => this.onButtonClick(e)} type="operation">
             =
-          </Button>
-          <Button onButtonClick={e => this.onButtonClick(e)} type="clear">
-            C
           </Button>
         </div>
       </div>
