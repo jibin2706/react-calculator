@@ -36,7 +36,7 @@ export default class Calculator extends Component {
 
   render() {
     return (
-      <Fragment>
+      <div className="calculator">
         <Display display={this.state.display} />
         <div className="keypad">
           <Button onButtonClick={e => this.onButtonClick(e)} type="number">
@@ -88,7 +88,7 @@ export default class Calculator extends Component {
             C
           </Button>
         </div>
-      </Fragment>
+      </div>
     );
   }
 }

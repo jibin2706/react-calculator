@@ -1,15 +1,22 @@
 .button {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 100px; */
 }
 
 .number {
-  background: blue;
+  background: #212121;
+  color: white;
 }
 
 .clear {
-  background: orange;
+  background: #bdbdbd;
+  color: black;
 }
 
 .operation {
-  background: grey;
+  background: #e65100;
+  color: white;
 }
