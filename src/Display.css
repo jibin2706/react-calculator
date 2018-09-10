@@ -3,5 +3,8 @@
   background: #212121;
   height: 100px;
   width: auto;
-  font-size: larger;
+  font-size: 3em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
