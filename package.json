@@ -2,6 +2,7 @@
   "name": "react-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jibin2706.github.io/react-calculator/",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.5.0",
