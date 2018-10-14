@@ -16,7 +16,7 @@ export default class Calculator extends Component {
   onButtonClick(e) {
     const nextValue = e.target.innerHTML;
     if (nextValue === '=') {
-      this.setState(prevState => ({ display: eval(prevState.display) }));
+      this.setState(prevState => ({ display: parseFloat(eval(prevState.display).toFixed(3)) }));
       return;
     }
 
